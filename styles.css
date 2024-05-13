@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin: 20px;
+    flex: 1 0 300px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+  
+  .laptop-screen /* Apply a basic responsive layout */
+
+    /* Set max-width to prevent content from extending beyond the screen */
+    body {
+        max-width: 100%;
+        overflow-x: hidden; /* Hide horizontal overflow */
+    }
+    
+    /* Adjust font size for better readability on small screens */
+    body {
+        font-size: 16px; /* Default font size */
+    }
+    
+    @media only screen and (max-width: 768px) {
+        body {
+            font-size: 14px; /* Reduce font size for smaller screens */
+        }
+    }
+    
+    /* Make images responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Adjust layout for smaller screens */
+    .container {
+        padding: 20px; /* Add padding to content */
+    }
+    
+    /* Adjust other elements as needed */
+    
+ 
+
+
+
+
+  
